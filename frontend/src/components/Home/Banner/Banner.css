@@ -1,0 +1,155 @@
+.banner-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-slide {
+    outline: none;
+}
+
+.banner-slide {
+    position: relative;
+}
+
+.banner-overlay {
+    background: linear-gradient(180deg, rgba(2,6,23,0.15), rgba(2,6,23,0.2));
+    z-index: 1;
+}
+
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+    width: 40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,.15);
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    z-index: 2;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.slick-arrow.slick-prev:hover,
+.slick-arrow.slick-next:hover {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 6px 12px rgba(0,0,0,.2);
+    transform: scale(1.05);
+}
+
+.slick-prev {
+    left: 10px;
+    border-radius: 0 8px 8px 0;
+}
+
+.slick-next {
+    right: 10px;
+    border-radius: 8px 0 0 8px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    display: none;
+}
+
+/* Mobile responsive dots */
+.slick-dots {
+    bottom: 15px;
+    z-index: 2;
+}
+
+.slick-dots li {
+    margin: 0 3px;
+}
+
+.slick-dots li button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+}
+
+.slick-dots li button:before {
+    display: none;
+}
+
+.slick-dots li.slick-active button {
+    background: rgba(255, 255, 255, 1);
+    transform: scale(1.2);
+}
+
+.banner-slide img {
+    display: block;
+}
+
+/* Tablet adjustments */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .slick-arrow.slick-prev,
+    .slick-arrow.slick-next {
+        width: 44px;
+        height: 90px;
+    }
+}
+
+/* Mobile specific styles */
+@media (max-width: 640px) {
+    .slick-arrow.slick-prev,
+    .slick-arrow.slick-next {
+        display: none !important;
+    }
+    
+    .slick-dots {
+        bottom: 10px;
+    }
+    
+    .slick-dots li {
+        margin: 0 2px;
+    }
+    
+    .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .slick-arrow.slick-prev,
+    .slick-arrow.slick-next {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+    }
+    
+    .slick-arrow.slick-prev:hover,
+    .slick-arrow.slick-next:hover {
+        transform: none;
+    }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+    .slick-arrow.slick-prev,
+    .slick-arrow.slick-next {
+        background: white;
+        border: 2px solid black;
+    }
+    
+    .slick-dots li button {
+        background: white;
+        border: 2px solid black;
+    }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .slick-arrow.slick-prev,
+    .slick-arrow.slick-next,
+    .slick-dots li button {
+        transition: none;
+    }
+}
