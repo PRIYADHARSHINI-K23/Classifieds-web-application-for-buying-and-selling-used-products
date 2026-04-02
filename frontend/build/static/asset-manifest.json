@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de23a8a1.css",
+    "main.js": "/static/js/main.82d966cb.js",
+    "static/media/quickbuy_logo.png": "/static/media/quickbuy_logo.2a58908695238552dfbc.png",
+    "static/media/payment-methods.svg": "/static/media/payment-methods.69e7ec34d1302e6b58b2cb1abe6b2f9c.svg",
+    "static/media/404-not-found.svg": "/static/media/404-not-found.f58b723c5e420e43683574327be5529a.svg",
+    "static/media/success.png": "/static/media/success.a6e71fb67ec0538ff2ee.png",
+    "static/media/failed.png": "/static/media/failed.25f9a5080785b1e6642c.png",
+    "static/media/tracking.png": "/static/media/tracking.dfc4d75ad6bf5b0b2a29.png",
+    "static/media/package.avif": "/static/media/package.6903727d48b71ffb6b4b.avif",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "static/media/health_tips.svg": "/static/media/health_tips.89c3e9e281f83fa08dd429ff6a922f23.svg",
+    "static/media/delivery.svg": "/static/media/delivery.4b2d33e3b0b1efb9db13a9bb9d4be539.svg",
+    "static/media/health-tips.svg": "/static/media/health-tips.45dcd02ef10541c7757915ab09fbed85.svg",
+    "static/media/expert.svg": "/static/media/expert.4cac7c579d94d68cdff7dcaad13ec9b5.svg",
+    "static/media/brand.svg": "/static/media/brand.2ee440aec514d180c74a0b43c71ba753.svg"
+  },
+  "entrypoints": [
+    "static/css/main.de23a8a1.css",
+    "static/js/main.82d966cb.js"
+  ]
+}
