@@ -1,0 +1,14 @@
+src/components/Layouts/Header/Header.jsx
+src/components/Admin/UserTable.jsx
+src/components/Admin/MainData.jsx
+src/components/Admin/Sidebar/Sidebar.jsx
+src/components/User/Login.jsx
+src/components/User/CustomerRegister.jsx
+src/components/User/Register.jsx
+src/components/User/UpdateProfile.jsx
+src/components/User/DoctorRegister.jsx
+src/components/User/Sidebar.jsx
+src/components/Cart/Stepper.jsx
+src/components/Cart/OrderConfirm.jsx
+src/components/Cart/Payment.jsx
+src/components/Cart/Cart.jsx
